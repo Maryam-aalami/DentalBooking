@@ -20,6 +20,6 @@ A dental booking website built with HTML, CSS, C#, ASP.NET Core, and SQL Server.
 
 ## Screenshots
 
-![Home Up](./Project%20Image/Home%20up.jpg)
-![Home Down](./Project%20Image/Home%20down.png)
-![Booking](./Project%20Image/Booking.jpg)
+![Home Up](./Project%20Images/Home%20up.jpg)
+![Home Down](./Project%20Images/Home%20down.png)
+![Booking](./Project%20Images/Booking.jpg)
