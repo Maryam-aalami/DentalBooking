@@ -1,0 +1,60 @@
+
+@model LocalTest.Models.AppointmentViewModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist Booking</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+   @await Html.PartialAsync("_Header")
+   @await Html.PartialAsync("_AppointmentModal")
+  <section class="hero">
+        <div class="hero-content"><h1>About Our Clinic</h1><h2>Your Smile, Our Prioroty</h2>
+            <p>Established in 2018, our dental clinic has been providing trusted and personalized dental care for patients of all ages. Our experienced team combines modern technology with a caring approach to create a comfortable experience and help every patient achieve a healthy, confident smile.</p>
+        <!-- <a href="#" class="btn">Book an Appointment</a> -->
+        </div>
+        <div class="hero-image">
+  <img class="hero-img" src="Images/hero.jpg" alt="Dentist"> 
+        </div>
+    </section>
+    <div class="services-list">
+        <h2>Our Services</h2>
+        <div class="service-card"><div class="service-icon">
+        <img src="Images/dental-checkup.png" alt="dental-checkup"></div>
+        <div class="service-text">
+            <h3>Dental Checkup</h3>
+        </div></div>
+        <div class="service-card"><div class="service-icon">
+         <img src="Images/teeth-cleaning.png" alt="teeth-cleaning"></div>
+         <div class="service-text">
+            <h3>Teeth Cleaning</h3>
+        </div></div>
+        <div class="service-card"><div class="service-icon">
+         <img src="Images/cosmetic-dentistry.png" alt="cosmetic-dentistry"></div>
+         <div class="service-text">
+            <h3>Cosmetic Dentistry</h3>
+        </div>
+    </div>
+    </div>
+    <div class="all-services"><h3><a asp-controller="Services" asp-action="Index">View All Services</a></h3></div>
+    <div class="why-us">
+    <div class="why-title"><h2>Why Choose Us?</h2></div>
+    <div class="why-items">
+<div class="why-item"><h3>Experienced Dentists</h3><p>Our team of experts provides high-quality dental care.</p></div>
+<div class="why-item"><h3>Modern Equipment</h3><p>We use the latest technology for the treatment</p></div>
+<div class="why-item"><h3>Easy Booking</h3><p>Book your appointment quickly and easily online</p></div>
+<div class="why-item"><h3>Patient Care</h3><p>We care about your comfort and satisfaction</p></div>
+
+    
+   </div>
+     </div>
+   
+   @await Html.PartialAsync("_Footer")
+<script src="~/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dental Services</title>
+     <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    @await Html.PartialAsync("_Header")
+  @*@await Html.PartialAsync("_AppointmentModal")*@
+
+  <div class="services-container">
+    <h1>Our Dental Services</h1>
+    <p>Comprehensive dental care for a healthy and confident smile.</p>
+    <div class="services-con">
+    <div class="service-color"><h2>Dental Checkup</h2><p>
+        Regular dental examinations to keep your teeth and gums healthy and detect problems early.
+    </p></div>
+    <div class="service-color"><h2>teeth cleaning</h2><p>
+        Professional cleaning to remove plaque and bildup and maintain a fresh,healthy smile.
+    </p></div>
+    <div class="service-color"><h2>Cosmetic Dentistry</h2><p>
+        Modern treatments designed to improve the appearance of your teeth and create a more attractive smile.
+    </p></div>
+    <div class="service-color"><h2>Orthodontics</h2><p>
+        Helps straighten teeth and improve your bite for a healthier and more confident smile.
+    </p></div>
+    
+    <div class="service-color"><h2>Root Canal Treatment</h2><p>
+       Careful treatment for damaged or infected teeth, helping relieve discomfort and preserve your natural tooth.
+    </p></div>
+    <div class="service-color"><h2>Dental Surgery</h2><p>
+       Provides safe surgical treatments to improve your oral health and restore your smile.
+    </p></div>
+    </div>
+  </div>
+   @await Html.PartialAsync("_Footer")
+   <script src="~/js/script.js"></script>
+</body>
+</html>

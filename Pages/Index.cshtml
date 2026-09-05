@@ -1,0 +1,109 @@
+﻿@page
+@model LocalTest.Pages.IndexModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentist Booking</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div id="Home" class="logo">
+    <img class="logo-icon" src="Images/tooth-logo.jpg" alt="DentalCare Logo">
+    <h3>DentalCare</h3>
+    </div>
+        <nav>
+<a href="#">Home</a>
+<a asp-page="/Doctors">Doctors</a>
+<a asp-page="/Services">Services</a>
+<!-- <a href="#">about</a> -->
+<!-- <a href="#">contact</a> -->
+</nav>
+    <button class="btn" id="bookappointmentbtn"> Book Appointment</button>
+    <div id="modaloverlay"></div>
+    <div id="appointmentmodal"><h2>Book Appointment</h2>
+        <div class="appointment-fields">
+        <div class="field"><lable for="firstname">First Name</lable>  <input type="text" id="firstname"></div>
+        <div class="field"><lable for="lastname">Last Name</lable>  <input type="text" id="lastname"></div>
+        <div class="field"><lable for="mobile">Mobile</lable>  <input type="tel" id="mobile"></div>
+        <div class="field"><lable for="email">Email</lable>  <input type="email" id="email"></div>
+        
+         <div class="field"><lable for="doctor">Doctor Name</lable>
+            <select asp-for="DoctorId" class="field">
+                <option value="">Select Doctor</option>
+                @foreach (var doctor in Model.Doctors)
+                {
+                  <option value="@doctor.DoctorId">
+                    @doctor.DoctorName
+                  </option>
+                }
+                </select>
+          </div>
+
+          <div class="field"><lable for="service">Service Type</lable>
+            <select asp-for="ServiceId" class="field" id="serviceselect">
+                <option value="">Select Service</option>
+                
+                </select>
+          </div>
+        <!-- <div class="field"><lable for="service">Service Type</lable>  <input type="text" id="service"></div> -->
+        <div class="field"><lable for="date">Date</lable>  <input type="date" id="date"></div>
+        <div class="field"><lable for="time">Time</lable>  <input type="time" id="time"></div>
+    </div>
+    </div>
+    
+  </header>  
+  <section class="hero">
+        <div class="hero-content"><h1>About Our Clinic</h1><h2>Your Smile, Our Prioroty</h2>
+            <p>Established in 2018, our dental clinic has been providing trusted and personalized dental care for patients of all ages. Our experienced team combines modern technology with a caring approach to create a comfortable experience and help every patient achieve a healthy, confident smile.</p>
+        <!-- <a href="#" class="btn">Book an Appointment</a> -->
+        </div>
+        <div class="hero-image">
+  <img class="hero-img" src="Images/hero.jpg" alt="Dentist"> 
+        </div>
+    </section>
+    <div class="services-list">
+        <h2>Our Services</h2>
+        <div class="service-card"><div class="service-icon">
+        <img src="Images/dental-checkup.png" alt="dental-checkup"></div>
+        <div class="service-text">
+            <h3>Dental Checkup</h3>
+        </div></div>
+        <div class="service-card"><div class="service-icon">
+         <img src="Images/teeth-cleaning.png" alt="teeth-cleaning"></div>
+         <div class="service-text">
+            <h3>Teeth Cleaning</h3>
+        </div></div>
+        <div class="service-card"><div class="service-icon">
+         <img src="Images/cosmetic-dentistry.png" alt="cosmetic-dentistry"></div>
+         <div class="service-text">
+            <h3>Cosmetic Dentistry</h3>
+        </div>
+    </div>
+    </div>
+    <div class="all-services"><h3><a asp-page="/Services">View All Services</a></h3></div>
+    <div class="why-us">
+    <div class="why-title"><h2>Why Choose Us?</h2></div>
+    <div class="why-items">
+<div class="why-item"><h3>Experienced Dentists</h3><p>Our team of experts provides high-quality dental care.</p></div>
+<div class="why-item"><h3>Modern Equipment</h3><p>We use the latest technology for the treatment</p></div>
+<div class="why-item"><h3>Easy Booking</h3><p>Book your appointment quickly and easily online</p></div>
+<div class="why-item"><h3>Patient Care</h3><p>We care about your comfort and satisfaction</p></div>
+
+    
+   </div>
+     </div>
+     <div class="footer-items">
+<div class="footer-name"><h3>Info</h3><p>Aalami Dental Clinic</p></div>
+<div class="footer-item"><h3>quick Links</h3><p><a asp-page="/Index">Home</a></p><p><a asp-page="/Services">Services</a></p><p><a asp-page="/Doctors">Doctors</a></p></div>
+<div class="footer-item"><h3>Contact Us</h3><p><i class="fa-solid fa-mobile-screen-button contact-icon"></i><a href="tel:+49123456789">+98 9353492745</a></p><p><i class="fa-solid fa-envelope contact-icon"></i><a href="mailto:your@email.com">Dr.hoseinalami1370@gmail.com</a></p><p><i class="fa-solid fa-location-dot contact-icon"></i><a href="https://maps.app.goo.gl/d1RP1temmdBt1eck6"target="_blank">32 Ladan Street,Iran,Mashhad</a></p></div>
+
+   </div>
+   
+   <footer><p>©2026 Aalami Dental Clinic. All rights reserved.</p></footer>
+<script src="~/js/script.js"></script>
+</body>
+</html>

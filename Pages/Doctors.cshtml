@@ -1,0 +1,66 @@
+@page
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <header>
+    <div id="Home" class="logo">
+    <img class="logo-icon" src="Images/tooth-logo.jpg" alt="DentalCare Logo">
+    <h3>DentalCare</h3>
+    </div>
+        <nav>
+<a asp-page="/Index">Home</a>
+<a asp-page="/Doctors">Doctors</a>
+<a asp-page="/Services">Services</a>
+
+</nav>
+    <a href="#" class="btn">Book Appointment</a>
+      </header>
+      <div class="doctors-container">
+    <h1>Our Dentists</h1>
+    <p>Meet our experienced dental team.</p>
+    <div class="doctor-card">
+     <div class="doctor-info"><h2>Dr.Hossein Aalami</h2><h3>General Dentist</h3><p>Experienced in dental checkup and teeth cleaning</p></div>
+        <div class="doctor-image"><img src="Images/hero.jpg" alt="Dr.Hossein Aalami"></div>
+         </div>
+
+        <div class="doctor-card">
+     <div class="doctor-info"><h2>Dr.Sarah Smith</h2><h3>General Dentist</h3><p>Experienced in dental checkup and teeth cleaning</p></div>
+        <div class="doctor-image"><img src="Images/sarah1.jpg" alt="Dr.Sarah Smith"></div>
+         </div>
+
+<div class="doctor-card">
+     <div class="doctor-info"><h2>Dr.James Anderson</h2><h3>Dental Surgeon - Canal Root Therapist</h3><p>Provides expert surgical care for healthy teeth and gums</p></div>
+        <div class="doctor-image"><img src="Images/James1.png" alt="Dr.James Anderson"></div>
+         </div>
+
+         <div class="doctor-card">
+     <div class="doctor-info"><h2>Dr.Emily Johnson</h2><h3>Cosmetic Dentist</h3><p>Creates beautiful smiles with personalized cosmetic care</p></div>
+        <div class="doctor-image"><img src="Images/Emily1.png" alt="Dr.Emily Johnson"></div>
+         </div>
+
+         <div class="doctor-card">
+     <div class="doctor-info"><h2>Dr.Michael Brown</h2><h3>Orthodontist</h3><p>Helps straighten teeth for a healthier, confident smile</p></div>
+        <div class="doctor-image"><img src="Images/Michael1.png" alt="Dr.Michael Brown"></div>
+         </div>
+
+        
+        </div>
+
+
+    </div>
+    <div class="footer-items">
+<div class="footer-name"><h3>Info</h3><p>Aalami Dental Clinic</p></div>
+<div class="footer-item"><h3>quick Links</h3><p><a asp-page="/Index">Home</a></p><p><a asp-page="/Services">Services</a></p><p><a asp-page="/Doctors">Doctors</a></p></div>
+<div class="footer-item"><h3>Contact Us</h3><p><i class="fa-solid fa-mobile-screen-button contact-icon"></i><a href="tel:+49123456789">+98 9353492745</a></p><p><i class="fa-solid fa-envelope contact-icon"></i><a href="mailto:your@email.com">Dr.hoseinalami1370@gmail.com</a></p><p><i class="fa-solid fa-location-dot contact-icon"></i><a href="https://maps.app.goo.gl/d1RP1temmdBt1eck6"target="_blank">32 Ladan Street,Iran,Mashhad</a></p></div>
+
+    
+   </div>
+   <footer><p>©2026 Aalami Dental Clinic. All rights reserved.</p></footer>
+</body>
+</html>

@@ -1,0 +1,126 @@
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\appsettings.json
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.exe
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.deps.json
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.runtimeconfig.json
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.runtimeconfig.dev.json
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.dll
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.pdb
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.Views.dll
+D:\backup 11\Web Development\LocalTest\bin\Debug\netcoreapp3.1\LocalTest.Views.pdb
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.csprojAssemblyReference.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.AssemblyInfoInputs.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.AssemblyInfo.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.csproj.CoreCompileInputs.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.MvcApplicationPartsAssemblyInfo.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.RazorAssemblyInfo.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.RazorAssemblyInfo.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.TagHelpers.input.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.TagHelpers.output.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.RazorCoreGenerate.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.RazorTargetAssemblyInfo.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.RazorTargetAssemblyInfo.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.Views.pdb
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\staticwebassets\LocalTest.StaticWebAssets.Manifest.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\staticwebassets\LocalTest.StaticWebAssets.xml
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.dll
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.pdb
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.genruntimeconfig.cache
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\LocalTest.csproj.CopyComplete
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\Doctors.cshtml.g.cs
+D:\backup 11\Web Development\LocalTest\obj\Debug\netcoreapp3.1\Razor\Pages\Services.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.csprojAssemblyReference.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.AssemblyInfoInputs.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.AssemblyInfo.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.csproj.CoreCompileInputs.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.MvcApplicationPartsAssemblyInfo.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.RazorAssemblyInfo.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.RazorAssemblyInfo.cs
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\appsettings.json
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Pages\vscode\tasks.json
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.exe
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.deps.json
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.runtimeconfig.json
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.runtimeconfig.dev.json
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.pdb
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.Views.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\LocalTest.Views.pdb
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\backup 11\Web Development\Dentist Booking\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.TagHelpers.input.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.TagHelpers.output.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.RazorCoreGenerate.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\Doctors.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\Services.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Views\Doctors\Index.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Views\Services\Index.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AppointmentModal.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Footer.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Header.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.RazorTargetAssemblyInfo.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.RazorTargetAssemblyInfo.cs
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.Views.pdb
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.csproj.CopyComplete
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\staticwebassets\LocalTest.StaticWebAssets.Manifest.cache
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\staticwebassets\LocalTest.StaticWebAssets.xml
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.dll
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.pdb
+D:\backup 11\Web Development\Dentist Booking\obj\Debug\netcoreapp3.1\LocalTest.genruntimeconfig.cache

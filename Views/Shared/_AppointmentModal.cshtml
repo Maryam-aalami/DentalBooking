@@ -1,0 +1,369 @@
+@model LocalTest.Models.AppointmentViewModel
+<div id="modaloverlay"></div>
+    <div id="appointmentmodal"><h2>Book Appointment</h2>
+        <div class="appointment-fields">
+        <div class="field"><lable for="firstname">First Name</lable>  <input type="text" id="firstname"></div>
+        <div class="field"><lable for="lastname">Last Name</lable>  <input type="text" id="lastname"></div>
+        <div class="field"><lable for="mobile">Mobile</lable>  <input type="tel" id="mobile"></div>
+        <div class="field"><lable for="email">Email</lable>  <input type="email" id="email"></div>
+        
+         <div class="field">
+    <label for="doctor">Doctor Name</label>
+
+    <select id="DoctorId" name="DoctorId" onchange="loadServices(this.value)" >
+        <option value="">Select Doctor</option>
+
+        @foreach (var doctor in Model.Doctors)
+        {
+            <option value="@doctor.DoctorId">
+                @doctor.DoctorName
+            </option>
+        }
+    </select>
+</div>
+
+<div class="field">
+    <label for="service">Service Type</label>
+
+    <select id="ServiceId" name="ServiceId" class="field">
+        <option value="">Select Service</option>
+         @foreach (var service in Model.Services)
+        {
+            <option value="@service.ServiceId">
+                @service.ServiceName
+            </option>
+        }
+    </select>
+</div>
+        <!-- <div class="field"><lable for="service">Service Type</lable>  <input type="text" id="service"></div> -->
+        <div class="field"><lable for="date">Date</lable>  <input type="date" id="date" name="AppointmentDate" min="@DateTime.Now.ToString("yyyy-MM-dd")"></div>
+        <div class="field"><lable for="time">Time</lable>  <select class="field" id="time" name="AppointmentDate" >
+        <option value=""> Select Time</option>
+    <option value="10:00">10:00</option>
+    <option value="10:30">10:30</option>
+    <option value="11:00">11:00</option>
+    <option value="11:30">11:30</option>
+    <option value="12:00">12:00</option>
+    <option value="12:30">12:30</option>
+    <option value="13:00">13:00</option>
+    <option value="13:30">13:30</option>
+    <option value="14:00">14:00</option>
+</select>
+        </div>
+        <button type="buttton" id="reserveBtn" class="button">Reserve</button>
+    </div>
+   
+    <style>
+    #appointmentsGrid {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0;
+        font-size: 11px;
+        margin-top: 10px;
+        border: 1px solid #4a90e2;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    #appointmentsGrid THEAD TH{
+        position: sticky;
+        top:0;
+        background:white;
+        z-index:2;
+    }
+
+    #appointmentsGrid th,
+    #appointmentsGrid td {
+        border: 1px solid #d9e8f7;
+        padding: 3px 4px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #appointmentsGrid th {
+        font-weight: 600;
+        font-size: 11px;
+    }
+    #gridContainer
+    {
+        width:100%;
+        height: 100px;
+        overflow-y:auto;
+        overflow-x:hidden;
+        
+    }
+</style>
+<div id="gridContainer">
+<table id="appointmentsGrid">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Doctor</th>
+            <th>Service</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Edit</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+
+    <tbody>
+    </tbody>
+</table>
+</div>
+    </div>
+
+
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+   <script>
+
+var editingAppointmentId = null;
+
+    function loadServices(doctorId) {
+    $.ajax({
+        url: '/Home/GetServicesByDoctor',
+        type: 'GET',
+        data: { doctorId: doctorId },
+
+        
+            success: function (services) {
+    var serviceDropdown = $('#ServiceId');
+
+    serviceDropdown.empty();
+
+    $.each(services, function (i, service) {
+        serviceDropdown.append(
+            $('<option></option>')
+                .val(service.serviceId)
+                .text(service.serviceName)
+        );
+    });
+},
+error:function(){
+    alert('خطا در دریافت سرویس ها');
+}
+
+    });
+}
+document.getElementById("reserveBtn").addEventListener("click", function () {
+
+   var firstName = document.getElementById("firstname").value;
+var lastName = document.getElementById("lastname").value;
+var mobile = document.getElementById("mobile").value;
+var email = document.getElementById("email").value;
+var doctorId = document.getElementById("DoctorId").value;
+var serviceId = document.getElementById("ServiceId").value;
+var date = document.getElementById("date").value;
+var time = document.getElementById("time").value;
+
+
+
+
+if (firstName.trim() === "") {
+    alert("Please enter your first name");
+    return;
+}
+
+if (lastName.trim() === "") {
+    alert("Please enter your last name");
+    return;
+}
+
+if (!/^0\d{10}$/.test(mobile)) {
+    alert("Please enter a valid mobile number");
+    return;
+}
+
+if (email.trim() !== "" && (email.indexOf("@@") === -1 || email.indexOf(".") === -1)) {
+    alert("Please enter a valid email address");
+    return;
+}
+
+if (doctorId === "") {
+    alert("Please select a doctor");
+    return;
+}
+
+if (serviceId === "") {
+    alert("Please select a service");
+    return;
+}
+
+if (date === "") {
+    alert("Please select a date");
+    return;
+}
+
+if (time === "") {
+    alert("Please select a time");
+    return;
+}
+
+
+
+
+
+
+var formData = new FormData();
+
+formData.append("FirstName", firstName);
+formData.append("LastName", lastName);
+formData.append("Mobile", mobile);
+formData.append("Email", email);
+formData.append("DoctorId", doctorId);
+formData.append("ServiceId", serviceId);
+formData.append("AppointmentDate", date);
+formData.append("AppointmentTime", time);
+
+if (editingAppointmentId !== null) {
+    formData.append("AppointmentId", editingAppointmentId);
+}
+
+
+fetch('/Home/Create', {
+    method: 'POST',
+    body: formData
+})
+
+
+
+.then(async response => {
+    const message = await response.text();
+
+    if (response.ok) {
+        alert(message);
+editingAppointmentId=null;
+  document.getElementById("firstname").value = "";
+  document.getElementById("lastname").value = "";
+  document.getElementById("mobile").value = "";
+  document.getElementById("email").value = "";
+ document.getElementById("DoctorId").selectedIndex = 0;
+document.getElementById("ServiceId").innerHTML =
+    '<option value="">Select Service</option>';
+  document.getElementById("date").value = "";
+  document.getElementById("time").value = "";
+
+
+  fetch('/Home/GetAppointments?mobile=' + mobile)
+    .then(response => response.json())
+    .then(data => {
+        var tbody = document.querySelector("#appointmentsGrid tbody");
+
+tbody.innerHTML = "";
+
+data.forEach(function (appointment) {
+    var row = `
+        <tr data-id="${appointment.appointmentId}">
+            <td>${appointment.firstName}</td>
+            <td>${appointment.lastName}</td>
+            <td>${appointment.doctorName}</td>
+            <td>${appointment.serviceName}</td>
+            <td>${new Date(appointment.appointmentDate).toLocaleDateString('en-GB')}</td>
+            <td>${appointment.appointmentTime.hours}:${String(appointment.appointmentTime.minutes).padStart(2, '0')}</td>
+            <td><button type="button" class="editBtn">✏️</button></td>
+<td><button type="button" class="deleteBtn">🗑️</button></td>
+        </tr>
+    `;
+
+    tbody.innerHTML += row;
+});
+
+
+
+document.querySelectorAll(".editBtn").forEach(function (button) {
+    button.addEventListener("click", function () {
+
+        var row = button.closest("tr");
+        var appointmentId = row.getAttribute("data-id");
+        editingAppointmentId = appointmentId;
+
+        fetch("/Home/GetAppointment?appointmentId=" + appointmentId)
+    .then(response => response.json())
+    .then(appointment => {
+
+        document.getElementById("firstname").value = appointment.firstName;
+        document.getElementById("lastname").value = appointment.lastName;
+        document.getElementById("mobile").value = appointment.mobile;
+        document.getElementById("email").value = appointment.email;
+
+        // document.getElementById("DoctorId").value = appointment.doctorId;
+        // document.getElementById("ServiceId").value = appointment.serviceId;
+        document.getElementById("DoctorId").value = appointment.doctorId;
+
+document.getElementById("DoctorId").dispatchEvent(new Event("change"));
+
+setTimeout(function () {
+    document.getElementById("ServiceId").value = appointment.serviceId;
+}, 300);
+
+
+
+        document.getElementById("date").value =
+            appointment.appointmentDate.substring(0, 10);
+
+        // document.getElementById("time").value =
+        //     appointment.appointmentTime.substring(0, 5);
+        var hours = String(appointment.appointmentTime.hours).padStart(2, "0");
+var minutes = String(appointment.appointmentTime.minutes).padStart(2, "0");
+
+document.getElementById("time").value = hours + ":" + minutes;
+
+    });
+
+    });
+});
+
+
+
+document.querySelectorAll(".deleteBtn").forEach(function (button) {
+    button.addEventListener("click", function () {
+
+        var row = button.closest("tr");
+        var appointmentId = row.getAttribute("data-id");
+       
+
+        if (!confirm("Are you sure you want to delete this appointment?")) {
+            return;
+        }
+
+fetch("/Home/DeleteAppointment?appointmentId=" + appointmentId, {
+    method: "POST"
+})
+.then(response => {
+    if (!response.ok) {
+        throw new Error("Delete failed");
+    }
+
+    row.remove();
+})
+.catch(error => {
+    console.error(error);
+    alert("Could not delete appointment.");
+});
+
+        
+
+    });
+});
+    });
+
+
+
+    }
+  
+     else {
+        alert("ERROR:"+ message);
+    }
+})
+
+// .catch(error => {
+//     alert("Error: " + error);
+// });
+
+
+});
+</script>
